@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\UnityProjects\Tests\LightIT" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="AudioManager" t="Include">
+            <e p="AudioManager.cs" t="Include" />
+            <e p="Sound.cs" t="Include" />
+          </e>
+          <e p="BoolValue.cs" t="Include" />
+          <e p="ColorChannels.cs" t="Include" />
+          <e p="GameLogic" t="Include">
+            <e p="CameraRayCaster.cs" t="Include" />
+            <e p="SmoothMouseLook.cs" t="Include" />
+          </e>
+          <e p="Interfaces" t="Include">
+            <e p="IHitter.cs" t="Include" />
+            <e p="IWatcher.cs" t="Include" />
+          </e>
+          <e p="Lamp.cs" t="Include" />
+          <e p="LightFader.cs" t="Include" />
+          <e p="Triggers" t="Include">
+            <e p="DimmerTrigger.cs" t="Include" />
+            <e p="DoorTrigger.cs" t="Include" />
+            <e p="MovementTrigger.cs" t="Include" />
+            <e p="SwitchTrigger.cs" t="Include" />
+            <e p="WindowTrigger.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="LightIT.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\felix\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\felix\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_LightIT.372414643.00" t="ExcludeRecursive" />
+  </component>
+</project>
