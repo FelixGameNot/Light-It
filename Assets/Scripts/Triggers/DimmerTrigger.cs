@@ -1,32 +1,33 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Interfaces;
+using ScriptableObjects;
 using UnityEngine;
 
-public class DimmerTrigger : MonoBehaviour, IWatcher
+namespace Triggers
 {
-
-    public float speed;
-
-    public ColorChannels channel;
-
-    public Transform circle;
-
-    private void Start()
+    public class DimmerTrigger : MonoBehaviour, IWatcher
     {
-        circle.rotation = Quaternion.Euler(270f - channel.Value * 180, -90f, -90f);
-    }
+        [SerializeField] private float speed;
 
-    public void OnWatch()
-    {
-        if(Input.mouseScrollDelta.y > 0)
+        [SerializeField] private ColorChannels channel;
+
+        [SerializeField] private Transform circle;
+
+        private void Start()
         {
-            channel.Value += speed * Time.deltaTime;
+            circle.rotation = Quaternion.Euler(270f - channel.Value * 180, -90f, -90f);
         }
-        if (Input.mouseScrollDelta.y < 0)
+
+        public void OnWatch()
         {
-            channel.Value -= speed * Time.deltaTime;
+            if(Input.mouseScrollDelta.y > 0)
+            {
+                channel.Value += speed * Time.deltaTime;
+            }
+            if (Input.mouseScrollDelta.y < 0)
+            {
+                channel.Value -= speed * Time.deltaTime;
+            }
+            circle.rotation = Quaternion.Euler(270f-channel.Value*180, -90f, -90f);
         }
-        circle.rotation = Quaternion.Euler(270f-channel.Value*180, -90f, -90f);
-        Debug.Log(channel.Value);
     }
 }

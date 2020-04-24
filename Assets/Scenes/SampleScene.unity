@@ -1496,7 +1496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed73e57750ffa884299e6c5fc740fcdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lerntine: {fileID: 453331434}
+  lamp: {fileID: 453331434}
   bv: {fileID: 11400000, guid: f6e032139bd14ca4b9a48a0d1cfee05a, type: 2}
 --- !u!1 &477753089
 GameObject:
@@ -1620,7 +1620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed73e57750ffa884299e6c5fc740fcdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lerntine: {fileID: 477753092}
+  lamp: {fileID: 477753092}
   bv: {fileID: 11400000, guid: f6e032139bd14ca4b9a48a0d1cfee05a, type: 2}
 --- !u!1 &486703268
 GameObject:
@@ -3116,7 +3116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed73e57750ffa884299e6c5fc740fcdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lerntine: {fileID: 1127327210}
+  lamp: {fileID: 1127327210}
   bv: {fileID: 11400000, guid: f6e032139bd14ca4b9a48a0d1cfee05a, type: 2}
 --- !u!95 &1144626284
 Animator:
@@ -4361,7 +4361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed73e57750ffa884299e6c5fc740fcdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lerntine: {fileID: 1424617537}
+  lamp: {fileID: 1424617537}
   bv: {fileID: 11400000, guid: f6e032139bd14ca4b9a48a0d1cfee05a, type: 2}
 --- !u!1 &1450741590
 GameObject:

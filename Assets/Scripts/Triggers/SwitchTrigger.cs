@@ -1,17 +1,21 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Interfaces;
+using ScriptableObjects;
 using UnityEngine;
 
-public class SwitchTrigger : MonoBehaviour, IHitter
+namespace Triggers
 {
-
-    public Animator anim;
-    public BoolValue bv;
-    public void OnHit(RaycastHit hit)
+    public class SwitchTrigger : MonoBehaviour, IHitter
     {
-        anim.SetTrigger("Click");
-        bv.Value = !bv.Value;
-        AudioManager.instance.Play("Click");
-    }
+        [SerializeField] private Animator anim;
+        [SerializeField] private BoolValue bv;
+        private static readonly int Click = Animator.StringToHash("Click");
 
+        public void OnHit(RaycastHit hit)
+        {
+            anim.SetTrigger(Click);
+            bv.Value = !bv.Value;
+            Audio.AudioManager.Instance.Play("Click");
+        }
+
+    }
 }

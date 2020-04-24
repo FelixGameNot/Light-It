@@ -8,12 +8,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/ColorChannels.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Triggers/DoorTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Triggers/DimmerTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/BoolValue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Triggers/MovementTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LightFader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Triggers/SwitchTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/CameraRayCaster.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interfaces/IWatcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interfaces/IHitter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lamp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Triggers/WindowTrigger.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Lamp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/DimmerTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Audio/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/MovementTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/WindowTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/SwitchTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/DoorTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/BoolValue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/ColorChannels.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/CameraRayCaster.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LightFader.cs" />
       </list>
     </option>
   </component>

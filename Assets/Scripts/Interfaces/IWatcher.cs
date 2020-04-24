@@ -1,8 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public interface IWatcher
+﻿namespace Interfaces
 {
-    void OnWatch();
+    public interface IWatcher
+    {
+        void OnWatch();
+    }
 }

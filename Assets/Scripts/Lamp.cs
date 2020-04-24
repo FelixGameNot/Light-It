@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using ScriptableObjects;
 using UnityEngine;
 
 public class Lamp : MonoBehaviour
@@ -11,7 +12,7 @@ public class Lamp : MonoBehaviour
     private void Start()
     {
         _light = GetComponent<Light>();
-        foreach(ColorChannels ch in channels)
+        foreach(var ch in channels)
         {
             ch.OnChanged += RebuildTheColor;
         }

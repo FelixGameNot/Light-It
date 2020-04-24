@@ -1,31 +1,31 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using ScriptableObjects;
 using UnityEngine;
 
 public class LightFader : MonoBehaviour
 {
-    public Light lerntine;
-
-    public BoolValue bv;
+    [SerializeField] private Light lamp;
+    [SerializeField] private BoolValue bv;
 
     private void Start()
     {
         bv.OnChanged += () => StartCoroutine(Fade(bv.Value));
-        lerntine.intensity = bv.Value ? 1 : 0;
+        lamp.intensity = bv.Value ? 1 : 0;
     }
 
-    IEnumerator Fade(bool _in)
+    private IEnumerator Fade(bool @in)
     {
-        if(_in)
-            for (float t = 0f; t <= 1f; t += Time.fixedDeltaTime)
+        if(@in)
+            for (var t = 0f; t <= 1f; t += Time.fixedDeltaTime)
             {
-                lerntine.intensity = t;
+                lamp.intensity = t;
                 yield return new WaitForFixedUpdate();
             }
         else
-            for (float t = 1f; t >= 0f; t -= Time.fixedDeltaTime)
+            for (var t = 1f; t >= 0f; t -= Time.fixedDeltaTime)
             {
-                lerntine.intensity = t;
+                lamp.intensity = t;
                 yield return new WaitForFixedUpdate();
             }
     }

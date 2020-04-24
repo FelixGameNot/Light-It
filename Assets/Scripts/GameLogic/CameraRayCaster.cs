@@ -1,26 +1,30 @@
-﻿﻿using UnityEngine;
+﻿﻿using Interfaces;
+ using UnityEngine;
 
-public class CameraRayCaster : MonoBehaviour
-{
-    public float distance = 2f;
-    private Camera cam;
+ namespace GameLogic
+ {
+     public class CameraRayCaster : MonoBehaviour
+     {
+         public float distance = 2f;
+         private Camera _cam;
 
-    void Start()
-    {
-        cam = GetComponent<Camera>();
-    }
+         private void Start()
+         {
+             _cam = GetComponent<Camera>();
+         }
 
-    void Update()
-    {
-        Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-        if (Physics.Raycast(ray, out RaycastHit hit, distance))
-        {
-            hit.collider.GetComponent<IWatcher>()?.OnWatch();
-            if (Input.GetMouseButtonDown(0))
-            {
-                hit.collider.GetComponent<IHitter>()?.OnHit(hit);
-            }
-        }
+         private void Update()
+         {
+             var ray = _cam.ScreenPointToRay(Input.mousePosition);
+             if (Physics.Raycast(ray, out var hit, distance))
+             {
+                 hit.collider.GetComponent<IWatcher>()?.OnWatch();
+                 if (Input.GetMouseButtonDown(0))
+                 {
+                     hit.collider.GetComponent<IHitter>()?.OnHit(hit);
+                 }
+             }
         
-    }
-}
+         }
+     }
+ }

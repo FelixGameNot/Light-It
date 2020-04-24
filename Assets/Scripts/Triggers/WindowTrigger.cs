@@ -1,13 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Interfaces;
 using UnityEngine;
 
-public class WindowTrigger : MonoBehaviour, IHitter
+namespace Triggers
 {
-
-    public Animator anim;
-    public void OnHit(RaycastHit hit)
+    public class WindowTrigger : MonoBehaviour, IHitter
     {
-        anim.SetTrigger("Click");
+        [SerializeField] private Animator anim;
+        private static readonly int Click = Animator.StringToHash("Click");
+
+        public void OnHit(RaycastHit hit)
+        {
+            anim.SetTrigger(Click);
+        }
     }
 }

@@ -1,8 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public interface IHitter
+namespace Interfaces
 {
-    void OnHit(RaycastHit hit);
+    public interface IHitter
+    {
+        void OnHit(RaycastHit hit);
+    }
 }

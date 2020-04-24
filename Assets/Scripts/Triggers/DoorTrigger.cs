@@ -1,36 +1,43 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
+using Interfaces;
 using UnityEngine;
+using Audio;
 
-[RequireComponent(typeof(BoxCollider))]
-public class DoorTrigger : MonoBehaviour, IHitter
+namespace Triggers
 {
-    public Animator anim;
-    private bool _play;
+    [RequireComponent(typeof(BoxCollider))]
+    public class DoorTrigger : MonoBehaviour, IHitter
+    {
+        [SerializeField] private Animator anim;
+        
+        private bool _play;
+        private static readonly int OpenDoor = Animator.StringToHash("OpenDoor");
 
-    public void AnimIsPlaying()
-    {
-        _play = true;
-    }    
-    
-    public void AnimIsEnding()
-    {
-        _play = false;
-    }
-
-    public void OnHit(RaycastHit hit)
-    {
-        if (!_play)
+        public void AnimIsPlaying()
         {
-            anim.SetTrigger("OpenDoor");
-            PlayAudio();
-            Invoke("PlayAudio", 4f);
+            _play = true;
+        }    
+    
+        public void AnimIsEnding()
+        {
+            _play = false;
         }
-    }
 
-    private void PlayAudio()
-    {
-        AudioManager.instance.Play("Door");
+        public void OnHit(RaycastHit hit)
+        {
+            if (_play) return;
+            
+            anim.SetTrigger(OpenDoor);
 
+            StartCoroutine(PlayAudio());
+        }
+
+        private static IEnumerator PlayAudio()
+        {
+            AudioManager.Instance.Play("Door");
+            yield return new WaitForSeconds(4f);
+            AudioManager.Instance.Play("Door");
+        }
+        
     }
 }
