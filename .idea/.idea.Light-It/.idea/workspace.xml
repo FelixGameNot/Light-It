@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc2acb69-0ebf-4dc9-90a1-eb49cd0a4926" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/DoorObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/DimmerObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Bayat/Json/Runtime/Utilities/ConvertUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/Shared/Scripts/StorageDemoController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/FloorObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/SwitchObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/CameraRayCaster.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/WindowObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/3 - Saving &amp; Loadinig Scene Objects/SceneObjectsDemoController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/LampObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BaseObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/10 - Storage - Backup/StorageBackupDemoController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Examples/1 - Simple Runtime Instantiated Objects/SimpleRuntimeInstanitatedObjectsExampleController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/9 - Storage - List Items/StorageListItemsDemoController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/5 - Saving &amp; Loading Existing Object/ExistingObjectDemoController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Bayat/Json/Runtime/JsonSerializerSettingsPreset.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/1 - Saving &amp; Loading Primitive Data/PrimitiveDataDemoController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/9 - Storage - List Items/StorageListItemDemoUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/2 - Saving &amp; Loadinig Complex Data/ComplexDataDemoController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TestSave.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/1 - Saving &amp; Loading Primitive Data/PrimitiveDataDemoController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/5 - Saving &amp; Loading Existing Object/ExistingObjectDemoController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TestSave.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/DoorTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/MovementTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/SwitchTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/WindowTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/DimmerTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/BaseObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/DoorObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/MovementObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/FloorObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/SwitchObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/WindowObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/DimmerObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/DimmerObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/CameraRayCaster.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/DoorObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Lamp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LampObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/LampObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1azLHmgBCkjmZh35GvSz3BZBkKS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="794" y="235" key="RiderGenerateDialog" timestamp="1587822778954">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="235" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587822778954" />
+    <state x="461" y="151" key="SettingsEditor" timestamp="1587733594439">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587733594439" />
+  </component>
+</project>
