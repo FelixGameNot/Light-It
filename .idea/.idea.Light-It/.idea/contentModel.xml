@@ -4,7 +4,6 @@
     <e p="C:\UnityProjects\GitHubRepos\Light-It" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="BaseObject.cs" t="Include" />
         <e p="Bayat" t="Include">
           <e p="SaveSystem" t="Include">
             <e p="Demos" t="Include">
@@ -442,11 +441,16 @@
             <e p="CameraRayCaster.cs" t="Include" />
             <e p="SmoothMouseLook.cs" t="Include" />
           </e>
+          <e p="Info" t="Include">
+            <e p="BaseInfo.cs" t="Include" />
+          </e>
           <e p="Objects" t="Include">
+            <e p="BaseObject.cs" t="Include" />
             <e p="DimmerObject.cs" t="Include" />
             <e p="DoorObject.cs" t="Include" />
             <e p="FloorObject.cs" t="Include" />
             <e p="LampObject.cs" t="Include" />
+            <e p="StaticObject.cs" t="Include" />
             <e p="SwitchObject.cs" t="Include" />
             <e p="WindowObject.cs" t="Include" />
           </e>

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Info;
+using UnityEngine;
 
 namespace Objects
 {
@@ -20,6 +21,11 @@ namespace Objects
         public override string GetSerializedInfo()
         {
             throw new System.NotImplementedException();
+        }
+
+        public override BaseInfo GetInfo()
+        {
+            return new WindowInfo();
         }
     }
 }

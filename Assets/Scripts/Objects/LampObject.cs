@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using ScriptableObjects;
 using UnityEngine;
 
@@ -10,7 +11,7 @@ namespace Objects
         [SerializeField] private ColorChannels[] channels;
         [SerializeField] private BoolValue isOn;
         
-        private void Start()
+        private void OnEnable()
         {
             foreach(var ch in channels)
             {
@@ -18,9 +19,21 @@ namespace Objects
             }
             RebuildTheColor();
         
-            isOn.OnChanged += () => StartCoroutine(Fade(isOn.Value));
+            isOn.OnChanged += Fade;
             lamp.intensity = isOn.Value ? 1 : 0;
         }
+
+        private void OnDisable()
+        {
+            foreach(var ch in channels)
+            {
+                ch.OnChanged -= RebuildTheColor;
+            }
+            
+            isOn.OnChanged -= Fade;
+        }
+
+        private void Fade() => StartCoroutine(Fade(isOn.Value));
 
         private IEnumerator Fade(bool @in)
         {
@@ -51,6 +64,12 @@ namespace Objects
         public override string GetSerializedInfo()
         {
             throw new System.NotImplementedException();
+        }
+
+        public override void Remove()
+        {
+            base.Remove();
+            Destroy(gameObject);
         }
     }
 }

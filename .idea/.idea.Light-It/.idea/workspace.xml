@@ -15,11 +15,14 @@
     <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/Shared/Scripts/StorageDemoController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/FloorObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/SwitchObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Info/BaseInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/CameraRayCaster.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/StaticObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/WindowObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/3 - Saving &amp; Loadinig Scene Objects/SceneObjectsDemoController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/LampObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BaseObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/ColorChannels.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/BaseObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/10 - Storage - Backup/StorageBackupDemoController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Examples/1 - Simple Runtime Instantiated Objects/SimpleRuntimeInstanitatedObjectsExampleController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/9 - Storage - List Items/StorageListItemsDemoController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -41,7 +44,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/SwitchTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/WindowTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/DimmerTrigger.cs" />
-        <option value="$PROJECT_DIR$/Assets/BaseObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/DoorObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/MovementObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/FloorObject.cs" />
@@ -49,11 +51,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/WindowObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/DimmerObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Objects/DimmerObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/CameraRayCaster.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Objects/DoorObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Lamp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LampObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/BaseObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/CameraRayCaster.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Objects/LampObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/StaticObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/BaseObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Info/BaseInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/WindowObject.cs" />
         <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
       </list>
     </option>
@@ -89,13 +96,17 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="794" y="235" key="RiderGenerateDialog" timestamp="1587822778954">
+    <state x="794" y="235" key="RiderGenerateDialog" timestamp="1587879646287">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="235" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587822778954" />
-    <state x="461" y="151" key="SettingsEditor" timestamp="1587733594439">
+    <state x="794" y="235" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587879646287" />
+    <state x="144" y="131" width="1207" height="738" key="SettingsEditor" timestamp="1587877649038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587733594439" />
+    <state x="144" y="131" width="1207" height="738" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587877649038" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587881697655">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587881697655" />
   </component>
 </project>

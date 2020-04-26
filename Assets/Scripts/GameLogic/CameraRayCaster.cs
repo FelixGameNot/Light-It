@@ -21,13 +21,36 @@
              
              if (Physics.Raycast(ray, out var hit, distance))
              {
-                 if(!manager.SceneObjects.ContainsKey(hit.collider.gameObject))
+                 if(!manager.sceneObjects.ContainsKey(hit.collider.gameObject))
                      return;
                  
-                 manager.SceneObjects[hit.collider.gameObject].OnViewed();
+                 var hitObj = manager.sceneObjects[hit.collider.gameObject];
+                 
+                 hitObj.OnViewed();
                  
                  if (Input.GetMouseButtonDown(0))
-                     manager.SceneObjects[hit.collider.gameObject].OnClicked(hit);
+                     hitObj.OnStartHandling(hit);
+                 if (Input.GetMouseButton(0))
+                     hitObj.OnHandling(hit);
+                 if (Input.GetMouseButtonUp(0)) 
+                 {
+                     hitObj.OnEndHandling(hit);
+                     hitObj.OnClicked(hit);
+                 }
+
+                 if (Input.GetKeyDown(KeyCode.D))
+                     manager.sceneObjects[hit.collider.gameObject].Remove();
+
+                 if (Input.GetKey(KeyCode.C))
+                 {
+                     if (Input.GetKeyDown(KeyCode.L))
+                         manager.SpawnObject(hit, Type.LAMP);
+                     if (Input.GetKeyDown(KeyCode.B))
+                         manager.SpawnObject(hit, Type.BOX);
+                     if (Input.GetKeyDown(KeyCode.S))
+                         manager.SpawnObject(hit, Type.TANK);
+                 }
+
              }
         
          }
