@@ -460,6 +460,7 @@
           </e>
           <e p="TestSave.cs" t="Include" />
         </e>
+        <e p="Type.cs" t="Include" />
       </e>
       <e p="Bayat.Core.Editor.csproj" t="IncludeRecursive" />
       <e p="Bayat.Core.Runtime.csproj" t="IncludeRecursive" />

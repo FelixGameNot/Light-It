@@ -1,4 +1,5 @@
-﻿using ScriptableObjects;
+﻿using Info;
+using ScriptableObjects;
 using UnityEngine;
 
 namespace Objects
@@ -16,14 +17,37 @@ namespace Objects
             Audio.AudioManager.Instance.Play("Click");
         }
 
-        public override void Initialize(string data)
+        public override void Initialize(BaseInfo data)
         {
-            throw new System.NotImplementedException();
+            if (data is SwitchInfo cache)
+            {
+                Debug.Log("SwitchOk");
+                transform.position = cache.transformInfo.position;
+                transform.eulerAngles = cache.transformInfo.rotation;
+                transform.localScale = cache.transformInfo.scale;
+                bv.Value = cache.isOn;
+                anim.Play(cache.isOn ? "Switch_On" : "Switch_Off");
+            }
         }
-
-        public override string GetSerializedInfo()
+        
+        public override void Remove()
         {
-            throw new System.NotImplementedException();
+            
         }
+        
+        public override BaseInfo GetInfo()
+        {
+            return new SwitchInfo()
+            {
+                transformInfo = new TransformInfo()
+                {
+                    position = transform.position,
+                    rotation = transform.eulerAngles,
+                    scale = transform.localScale
+                },
+                isOn = bv.Value
+            };
+        }
+        
     }
 }

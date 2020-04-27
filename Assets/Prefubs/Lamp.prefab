@@ -1052,7 +1052,7 @@ GameObject:
   - component: {fileID: 7715308502431819739}
   - component: {fileID: 9080061008903631146}
   m_Layer: 0
-  m_Name: FloorLamp
+  m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1097,6 +1097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7789948a73b9bde41be7e7090182afe6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  transform: {fileID: 7715308502431819738}
   lamp: {fileID: 1743919050175096034}
   channels:
   - {fileID: 11400000, guid: c0ccc8d8b61466744b3a552d117d64df, type: 2}

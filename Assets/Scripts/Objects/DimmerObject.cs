@@ -1,4 +1,6 @@
-﻿using ScriptableObjects;
+﻿using System.Collections.Generic;
+using Info;
+using ScriptableObjects;
 using UnityEngine;
 
 namespace Objects
@@ -10,34 +12,51 @@ namespace Objects
         [SerializeField] private ColorChannels channel;
 
         [SerializeField] private Transform circle;
-
-        private void Start()
+        
+        public override void Initialize(BaseInfo data)
         {
-            circle.rotation = Quaternion.Euler(270f - channel.Value * 180, -90f, -90f);
+            if (data is DimmerInfo cache)
+            {
+                Debug.Log("dimmerOk");
+                transform.position = cache.transformInfo.position;
+                transform.eulerAngles = cache.transformInfo.rotation;
+                transform.localScale = cache.transformInfo.scale;
+                channel.Value = cache.dimmerValue;
+                circle.rotation = Quaternion.Euler(270f - channel.Value * 180, -90f, -90f);
+            }
         }
-
+        
         public override void OnViewed()
         {
-            if(Input.mouseScrollDelta.y > 0)
+            if(Input.mouseScrollDelta.y > 0 || Input.GetMouseButton(1))
             {
                 channel.Value += speed * Time.deltaTime;
             }
-            if (Input.mouseScrollDelta.y < 0)
+            if (Input.mouseScrollDelta.y < 0 || Input.GetMouseButton(0))
             {
                 channel.Value -= speed * Time.deltaTime;
             }
             circle.rotation = Quaternion.Euler(270f-channel.Value*180, -90f, -90f);
         }
-
-        public override void Initialize(string data)
+        
+        public override void Remove()
         {
-            throw new System.NotImplementedException();
+            
         }
-
-        public override string GetSerializedInfo()
+        
+        public override BaseInfo GetInfo()
         {
-            throw new System.NotImplementedException();
+            return new DimmerInfo()
+            {
+                transformInfo = new TransformInfo()
+                {
+                    position = transform.position,
+                    rotation = transform.eulerAngles,
+                    scale = transform.localScale
+                },
+                dimmerValue = channel.Value
+            };
         }
-
+        
     }
 }

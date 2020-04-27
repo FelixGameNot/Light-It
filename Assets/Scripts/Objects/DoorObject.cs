@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using Audio;
+using Info;
 using UnityEngine;
 
 namespace Objects
@@ -12,6 +13,13 @@ namespace Objects
         private bool _play;
         private static readonly int OpenDoor = Animator.StringToHash("OpenDoor");
 
+        public override void Initialize(BaseInfo data)
+        {
+            transform.position = data.transformInfo.position;
+            transform.eulerAngles = data.transformInfo.rotation;
+            transform.localScale = data.transformInfo.scale;
+        }
+        
         public void AnimIsPlaying()
         {
             _play = true;
@@ -37,16 +45,23 @@ namespace Objects
             yield return new WaitForSeconds(4f);
             AudioManager.Instance.Play("Door");
         }
-        
-        
-        public override void Initialize(string data)
+
+        public override void Remove()
         {
-            throw new System.NotImplementedException();
+            
         }
 
-        public override string GetSerializedInfo()
+        public override BaseInfo GetInfo()
         {
-            throw new System.NotImplementedException();
+            return new BaseInfo()
+            {
+                transformInfo = new TransformInfo()
+                {
+                    position = transform.position,
+                    rotation = transform.eulerAngles,
+                    scale = transform.localScale
+                }
+            };
         }
 
     }

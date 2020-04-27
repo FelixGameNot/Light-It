@@ -8,30 +8,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/DoorObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/DimmerObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Bayat/Json/Runtime/Utilities/ConvertUtils.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/Shared/Scripts/StorageDemoController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/FloorObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/SwitchObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Info/BaseInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/CameraRayCaster.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/StaticObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Bayat/Json/Runtime/JsonConverter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/WindowObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/3 - Saving &amp; Loadinig Scene Objects/SceneObjectsDemoController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/LampObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/ColorChannels.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/BaseObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/10 - Storage - Backup/StorageBackupDemoController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Examples/1 - Simple Runtime Instantiated Objects/SimpleRuntimeInstanitatedObjectsExampleController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/9 - Storage - List Items/StorageListItemsDemoController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/5 - Saving &amp; Loading Existing Object/ExistingObjectDemoController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Bayat/Json/Runtime/JsonSerializerSettingsPreset.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Bayat/Json/Runtime/Linq/JContainer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/1 - Saving &amp; Loading Primitive Data/PrimitiveDataDemoController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/9 - Storage - List Items/StorageListItemDemoUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Bayat/Json/Runtime/JsonSerializer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/2 - Saving &amp; Loadinig Complex Data/ComplexDataDemoController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TestSave.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/DoorObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/DimmerObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/FloorObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/SwitchObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Type.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/CameraRayCaster.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/StaticObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/3 - Saving &amp; Loadinig Scene Objects/SceneObjectsDemoController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/ColorChannels.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/BaseObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/5 - Saving &amp; Loading Existing Object/ExistingObjectDemoController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Bayat/Json/Runtime/JsonConvert.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Bayat/Json/Runtime/Converters/CustomCreationConverter.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -50,17 +56,21 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/SwitchObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/WindowObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Triggers/DimmerObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/DimmerObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/DoorObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Lamp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LampObject.cs" />
         <option value="$PROJECT_DIR$/Assets/BaseObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/CameraRayCaster.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/LampObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/StaticObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/BaseObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/MyClass.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Info/BaseInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Type.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/LampObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/DoorObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/FloorObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/BaseObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/DimmerObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/StaticObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Objects/WindowObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/SwitchObject.cs" />
         <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
       </list>
     </option>
@@ -96,17 +106,17 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="794" y="235" key="RiderGenerateDialog" timestamp="1587879646287">
+    <state x="794" y="235" key="RiderGenerateDialog" timestamp="1587945204797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="235" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587879646287" />
+    <state x="794" y="235" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587945204797" />
     <state x="144" y="131" width="1207" height="738" key="SettingsEditor" timestamp="1587877649038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="144" y="131" width="1207" height="738" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587877649038" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587881697655">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587909640070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587881697655" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587909640070" />
   </component>
 </project>

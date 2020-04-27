@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1798567953957663688}
   - component: {fileID: 1798567953957663689}
   m_Layer: 0
-  m_Name: SwitchR
+  m_Name: DimmerR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -109,6 +109,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5e81faea33b17748965bd6b554c4dad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  type: 4
+  transform: {fileID: 2458780595392685205}
   speed: 2
   channel: {fileID: 11400000, guid: c0ccc8d8b61466744b3a552d117d64df, type: 2}
   circle: {fileID: 6396953825663136108}

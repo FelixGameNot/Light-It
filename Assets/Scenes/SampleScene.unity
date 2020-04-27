@@ -151,7 +151,7 @@ Transform:
   m_LocalScale: {x: 6.4529357, y: 0.5077143, z: 7.9198074}
   m_Children: []
   m_Father: {fileID: 325170559}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &50488608
 MeshRenderer:
@@ -230,7 +230,7 @@ Transform:
   m_LocalScale: {x: 7.7696705, y: 2.7846, z: 0.25746012}
   m_Children: []
   m_Father: {fileID: 325170559}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!23 &178137045
 MeshRenderer:
@@ -471,7 +471,7 @@ Transform:
   m_LocalScale: {x: 2.0450454, y: 2.7846, z: 0.25746012}
   m_Children: []
   m_Father: {fileID: 325170559}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!23 &320525731
 MeshRenderer:
@@ -547,7 +547,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1739877156}
   - {fileID: 581920022}
   - {fileID: 178137044}
   - {fileID: 320525730}
@@ -711,38 +710,8 @@ Transform:
   m_LocalScale: {x: 6.4812036, y: 2.7846, z: 0.25746}
   m_Children: []
   m_Father: {fileID: 325170559}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &582038891 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3121586366127303941, guid: e7fe68b65a7b52440b6d52f8620250bb,
-    type: 3}
-  m_PrefabInstance: {fileID: 3121586366686255214}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1151922094}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cd01550fb9f6a643a021917996e2e27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &660046524 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4280546261576685695, guid: 0312e943f3d55214a9ef52a3127e99d7,
-    type: 3}
-  m_PrefabInstance: {fileID: 4280546262059588291}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &660046525 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4280546261576685694, guid: 0312e943f3d55214a9ef52a3127e99d7,
-    type: 3}
-  m_PrefabInstance: {fileID: 4280546262059588291}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 660046524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5e81faea33b17748965bd6b554c4dad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &930897600
 GameObject:
   m_ObjectHideFlags: 0
@@ -773,7 +742,7 @@ Transform:
   m_LocalScale: {x: 3.819865, y: 2.7846, z: 0.25746012}
   m_Children: []
   m_Father: {fileID: 325170559}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!23 &930897602
 MeshRenderer:
@@ -941,12 +910,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distance: 3
   manager: {fileID: 1970123061}
---- !u!1 &1151922094 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3121586365689608128, guid: e7fe68b65a7b52440b6d52f8620250bb,
-    type: 3}
-  m_PrefabInstance: {fileID: 3121586366686255214}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1333294785
 GameObject:
   m_ObjectHideFlags: 0
@@ -977,7 +940,7 @@ Transform:
   m_LocalScale: {x: 1.0054629, y: 0.6253421, z: 0.25746}
   m_Children: []
   m_Father: {fileID: 325170559}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1333294787
 MeshRenderer:
@@ -1122,7 +1085,7 @@ Transform:
   m_LocalScale: {x: 1.8109899, y: 0.7897995, z: 0.25746012}
   m_Children: []
   m_Father: {fileID: 325170559}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!23 &1409244702
 MeshRenderer:
@@ -1171,24 +1134,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1409244700}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1456590664 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2495335886691400751, guid: b5351fde03507c34d99a6e44467b80c6,
-    type: 3}
-  m_PrefabInstance: {fileID: 2495335888131175271}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1456590665 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2495335886691400750, guid: b5351fde03507c34d99a6e44467b80c6,
-    type: 3}
-  m_PrefabInstance: {fileID: 2495335888131175271}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1456590664}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5e81faea33b17748965bd6b554c4dad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1457850730
 GameObject:
   m_ObjectHideFlags: 0
@@ -1219,7 +1164,7 @@ Transform:
   m_LocalScale: {x: 2.7336373, y: 2.7846, z: 0.25746}
   m_Children: []
   m_Father: {fileID: 325170559}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1457850732
 MeshRenderer:
@@ -1268,113 +1213,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1457850730}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1739877152
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1739877156}
-  - component: {fileID: 1739877155}
-  - component: {fileID: 1739877154}
-  - component: {fileID: 1739877153}
-  - component: {fileID: 1739877157}
-  m_Layer: 0
-  m_Name: Floor
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!65 &1739877153
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1739877152}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.8, y: 1, z: 0.8}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1739877154
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1739877152}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &1739877155
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1739877152}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1739877156
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1739877152}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.2461, z: 3.4599}
-  m_LocalScale: {x: 6.4529357, y: 0.5077143, z: 7.9198074}
-  m_Children: []
-  m_Father: {fileID: 325170559}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1739877157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1739877152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8a0b1083f06ece4abc73b144e58d94c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tr: {fileID: 963194228}
 --- !u!1 &1814267457
 GameObject:
   m_ObjectHideFlags: 0
@@ -1405,7 +1243,7 @@ Transform:
   m_LocalScale: {x: 2.7390568, y: 2.7846, z: 0.25746}
   m_Children: []
   m_Father: {fileID: 325170559}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1814267459
 MeshRenderer:
@@ -1488,30 +1326,23 @@ MonoBehaviour:
     SerializedBytes: 
     ReferencedUnityObjects:
     - {fileID: 2282590393677552183, guid: 2c24123d9d384dd488a2420fd0572278, type: 3}
-    - {fileID: 7715308502431819739, guid: 4ad5a8cfce5bb174eb119ec93551046c, type: 3}
     - {fileID: 2326022453399403316, guid: f06d7e42c6388b54290a3308dd75d646, type: 3}
-    - {fileID: 1709003012524572518}
-    - {fileID: 1709003012524572521}
-    - {fileID: 1151922094}
-    - {fileID: 582038891}
-    - {fileID: 4626119972115793831}
-    - {fileID: 4626119972115793833}
-    - {fileID: 1456590664}
-    - {fileID: 1456590665}
-    - {fileID: 660046524}
-    - {fileID: 660046525}
-    - {fileID: 6843748959228620050}
-    - {fileID: 6843748959228620053}
-    - {fileID: 1739877152}
-    - {fileID: 1739877157}
+    - {fileID: 7715308502431819739, guid: 4ad5a8cfce5bb174eb119ec93551046c, type: 3}
+    - {fileID: 3121586366127303941, guid: e7fe68b65a7b52440b6d52f8620250bb, type: 3}
+    - {fileID: 1798567953957663689, guid: e3dab3850ba991c40924a19a6cc387c3, type: 3}
+    - {fileID: 4280546261576685694, guid: 0312e943f3d55214a9ef52a3127e99d7, type: 3}
+    - {fileID: 2495335886691400750, guid: b5351fde03507c34d99a6e44467b80c6, type: 3}
+    - {fileID: 4043307821371983621, guid: a4af0506df2417f4a9f2b85ad357428f, type: 3}
+    - {fileID: 7008351701832142618, guid: fe497c7f3a36dba478e151c1b6cee435, type: 3}
+    - {fileID: 4782250530985741079, guid: 45625f33832809642b96cc13f2710a53, type: 3}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
-    - Name: objects
+    - Name: objectsStorage
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[Type, Assembly-CSharp],[Objects.BaseObject,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Type, Assembly-CSharp],[BaseObjectDefaults,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
@@ -1528,16 +1359,304 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
+      Data: 10
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 2|BaseObjectDefaults, Assembly-CSharp
+    - Name: defaultObject
+      Entry: 10
+      Data: 0
+    - Name: defaultInfo
+      Entry: 7
+      Data: 3|Info.BaseInfo, Assembly-CSharp
+    - Name: transformInfo
+      Entry: 7
+      Data: 4|Info.TransformInfo, Assembly-CSharp
+    - Name: position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: rotation
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 5|BaseObjectDefaults, Assembly-CSharp
+    - Name: defaultObject
+      Entry: 10
+      Data: 1
+    - Name: defaultInfo
+      Entry: 7
+      Data: 6|Info.BaseInfo, Assembly-CSharp
+    - Name: transformInfo
+      Entry: 7
+      Data: 7|Info.TransformInfo, Assembly-CSharp
+    - Name: position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: rotation
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 8|BaseObjectDefaults, Assembly-CSharp
+    - Name: defaultObject
+      Entry: 10
+      Data: 2
+    - Name: defaultInfo
+      Entry: 7
+      Data: 9|Info.BaseInfo, Assembly-CSharp
+    - Name: transformInfo
+      Entry: 7
+      Data: 10|Info.TransformInfo, Assembly-CSharp
+    - Name: position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: rotation
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
       Data: 3
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 3
-      Data: 1
     - Name: $v
+      Entry: 7
+      Data: 11|BaseObjectDefaults, Assembly-CSharp
+    - Name: defaultObject
       Entry: 10
+      Data: 3
+    - Name: defaultInfo
+      Entry: 7
+      Data: 12|Info.BaseInfo, Assembly-CSharp
+    - Name: transformInfo
+      Entry: 7
+      Data: 13|Info.TransformInfo, Assembly-CSharp
+    - Name: position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
       Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: rotation
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -90
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -1546,10 +1665,76 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 3
-      Data: 0
+      Data: 4
     - Name: $v
+      Entry: 7
+      Data: 14|BaseObjectDefaults, Assembly-CSharp
+    - Name: defaultObject
       Entry: 10
+      Data: 4
+    - Name: defaultInfo
+      Entry: 7
+      Data: 15|Info.DimmerInfo, Assembly-CSharp
+    - Name: transformInfo
+      Entry: 7
+      Data: 16|Info.TransformInfo, Assembly-CSharp
+    - Name: position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: rotation
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
       Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: dimmerValue
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -1558,10 +1743,979 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 3
-      Data: 2
+      Data: 6
     - Name: $v
+      Entry: 7
+      Data: 17|BaseObjectDefaults, Assembly-CSharp
+    - Name: defaultObject
       Entry: 10
-      Data: 2
+      Data: 5
+    - Name: defaultInfo
+      Entry: 7
+      Data: 18|Info.DimmerInfo, Assembly-CSharp
+    - Name: transformInfo
+      Entry: 7
+      Data: 19|Info.TransformInfo, Assembly-CSharp
+    - Name: position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: rotation
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: dimmerValue
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: 20|BaseObjectDefaults, Assembly-CSharp
+    - Name: defaultObject
+      Entry: 10
+      Data: 6
+    - Name: defaultInfo
+      Entry: 7
+      Data: 21|Info.DimmerInfo, Assembly-CSharp
+    - Name: transformInfo
+      Entry: 7
+      Data: 22|Info.TransformInfo, Assembly-CSharp
+    - Name: position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: rotation
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: dimmerValue
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7
+    - Name: $v
+      Entry: 7
+      Data: 23|BaseObjectDefaults, Assembly-CSharp
+    - Name: defaultObject
+      Entry: 10
+      Data: 7
+    - Name: defaultInfo
+      Entry: 7
+      Data: 24|Info.SwitchInfo, Assembly-CSharp
+    - Name: transformInfo
+      Entry: 7
+      Data: 25|Info.TransformInfo, Assembly-CSharp
+    - Name: position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: rotation
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 90
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isOn
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: 26|BaseObjectDefaults, Assembly-CSharp
+    - Name: defaultObject
+      Entry: 10
+      Data: 8
+    - Name: defaultInfo
+      Entry: 7
+      Data: 27|Info.WindowInfo, Assembly-CSharp
+    - Name: transformInfo
+      Entry: 7
+      Data: 28|Info.TransformInfo, Assembly-CSharp
+    - Name: position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: rotation
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1.636276
+    - Name: 
+      Entry: 4
+      Data: 1.636276
+    - Name: 
+      Entry: 4
+      Data: 1.636276
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isOpen
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 9
+    - Name: $v
+      Entry: 7
+      Data: 29|BaseObjectDefaults, Assembly-CSharp
+    - Name: defaultObject
+      Entry: 10
+      Data: 9
+    - Name: defaultInfo
+      Entry: 7
+      Data: 30|Info.BaseInfo, Assembly-CSharp
+    - Name: transformInfo
+      Entry: 7
+      Data: 31|Info.TransformInfo, Assembly-CSharp
+    - Name: position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: rotation
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 6.452936
+    - Name: 
+      Entry: 4
+      Data: 0.5077143
+    - Name: 
+      Entry: 4
+      Data: 7.919807
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: baseObjects
+      Entry: 7
+      Data: 32|System.Collections.Generic.Dictionary`2[[Type, Assembly-CSharp],[System.Collections.Generic.List`1[[Info.BaseInfo,
+        Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 33|System.Collections.Generic.EnumEqualityComparer`1[[Type, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 7
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 34|System.Collections.Generic.List`1[[Info.BaseInfo, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 35|Info.BaseInfo, Assembly-CSharp
+    - Name: transformInfo
+      Entry: 7
+      Data: 36|Info.TransformInfo, Assembly-CSharp
+    - Name: position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -0.021
+    - Name: 
+      Entry: 4
+      Data: -0.213
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: rotation
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -90
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 9
+    - Name: $v
+      Entry: 7
+      Data: 37|System.Collections.Generic.List`1[[Info.BaseInfo, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 38|Info.BaseInfo, Assembly-CSharp
+    - Name: transformInfo
+      Entry: 7
+      Data: 39|Info.TransformInfo, Assembly-CSharp
+    - Name: position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -0.2461
+    - Name: 
+      Entry: 4
+      Data: 3.4599
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: rotation
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 6.452936
+    - Name: 
+      Entry: 4
+      Data: 0.5077143
+    - Name: 
+      Entry: 4
+      Data: 7.919807
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: 40|System.Collections.Generic.List`1[[Info.BaseInfo, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 41|Info.WindowInfo, Assembly-CSharp
+    - Name: transformInfo
+      Entry: 7
+      Data: 42|Info.TransformInfo, Assembly-CSharp
+    - Name: position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 2.946
+    - Name: 
+      Entry: 4
+      Data: 0.11204
+    - Name: 
+      Entry: 4
+      Data: 4.529
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: rotation
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1.636276
+    - Name: 
+      Entry: 4
+      Data: 1.636276
+    - Name: 
+      Entry: 4
+      Data: 1.636276
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isOpen
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7
+    - Name: $v
+      Entry: 7
+      Data: 43|System.Collections.Generic.List`1[[Info.BaseInfo, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 44|Info.SwitchInfo, Assembly-CSharp
+    - Name: transformInfo
+      Entry: 7
+      Data: 45|Info.TransformInfo, Assembly-CSharp
+    - Name: position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1.121
+    - Name: 
+      Entry: 4
+      Data: 1.227
+    - Name: 
+      Entry: 4
+      Data: -0.09
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: rotation
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 90
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isOn
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 7
+      Data: 46|System.Collections.Generic.List`1[[Info.BaseInfo, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 47|Info.DimmerInfo, Assembly-CSharp
+    - Name: transformInfo
+      Entry: 7
+      Data: 48|Info.TransformInfo, Assembly-CSharp
+    - Name: position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -2.24
+    - Name: 
+      Entry: 4
+      Data: 1.244
+    - Name: 
+      Entry: 4
+      Data: -0.096
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: rotation
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: dimmerValue
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: 49|System.Collections.Generic.List`1[[Info.BaseInfo, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 50|Info.DimmerInfo, Assembly-CSharp
+    - Name: transformInfo
+      Entry: 7
+      Data: 51|Info.TransformInfo, Assembly-CSharp
+    - Name: position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -1.752
+    - Name: 
+      Entry: 4
+      Data: 1.244
+    - Name: 
+      Entry: 4
+      Data: -0.096
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: rotation
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: dimmerValue
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 52|System.Collections.Generic.List`1[[Info.BaseInfo, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 53|Info.DimmerInfo, Assembly-CSharp
+    - Name: transformInfo
+      Entry: 7
+      Data: 54|Info.TransformInfo, Assembly-CSharp
+    - Name: position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -1.288
+    - Name: 
+      Entry: 4
+      Data: 1.244
+    - Name: 
+      Entry: 4
+      Data: -0.096
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: rotation
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: dimmerValue
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -1573,142 +2727,12 @@ MonoBehaviour:
       Data: 
     - Name: sceneObjects
       Entry: 7
-      Data: 2|System.Collections.Generic.Dictionary`2[[UnityEngine.GameObject, UnityEngine.CoreModule],[Objects.BaseObject,
+      Data: 55|System.Collections.Generic.Dictionary`2[[UnityEngine.GameObject, UnityEngine.CoreModule],[Objects.BaseObject,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 3|System.Collections.Generic.ObjectEqualityComparer`1[[UnityEngine.GameObject,
+      Data: 56|System.Collections.Generic.ObjectEqualityComparer`1[[UnityEngine.GameObject,
         UnityEngine.CoreModule]], mscorlib
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: baseObjects
-      Entry: 7
-      Data: 4|System.Collections.Generic.Dictionary`2[[UnityEngine.GameObject, UnityEngine.CoreModule],[Objects.BaseObject,
-        Assembly-CSharp]], mscorlib
-    - Name: comparer
-      Entry: 7
-      Data: 5|System.Collections.Generic.ObjectEqualityComparer`1[[UnityEngine.GameObject,
-        UnityEngine.CoreModule]], mscorlib
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 12
-      Data: 7
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 10
-      Data: 3
-    - Name: $v
-      Entry: 10
-      Data: 4
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 10
-      Data: 5
-    - Name: $v
-      Entry: 10
-      Data: 6
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 10
-      Data: 7
-    - Name: $v
-      Entry: 10
-      Data: 8
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 10
-      Data: 9
-    - Name: $v
-      Entry: 10
-      Data: 10
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 10
-      Data: 11
-    - Name: $v
-      Entry: 10
-      Data: 12
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 10
-      Data: 13
-    - Name: $v
-      Entry: 10
-      Data: 14
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 10
-      Data: 15
-    - Name: $v
-      Entry: 10
-      Data: 16
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: loadedObjectsInfo
-      Entry: 7
-      Data: 6|System.Collections.Generic.Dictionary`2[[Type, Assembly-CSharp],[System.Collections.Generic.List`1[[Info.BaseInfo,
-        Assembly-CSharp]], mscorlib]], mscorlib
-    - Name: comparer
-      Entry: 7
-      Data: 7|System.Collections.Generic.EnumEqualityComparer`1[[Type, Assembly-CSharp]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -1825,7 +2849,7 @@ Transform:
   m_LocalScale: {x: 163.62758, y: 163.62762, z: 163.62762}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 149.61, y: 177.4, z: 90.00001}
 --- !u!1 &2088381856
 GameObject:
@@ -1857,7 +2881,7 @@ Transform:
   m_LocalScale: {x: 1.8109899, y: 0.7897995, z: 0.25746012}
   m_Children: []
   m_Father: {fileID: 325170559}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!23 &2088381858
 MeshRenderer:
@@ -1906,24 +2930,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2088381856}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1709003012524572518 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7008351701832142613, guid: fe497c7f3a36dba478e151c1b6cee435,
-    type: 3}
-  m_PrefabInstance: {fileID: 8571814171571449971}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1709003012524572521 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7008351701832142618, guid: fe497c7f3a36dba478e151c1b6cee435,
-    type: 3}
-  m_PrefabInstance: {fileID: 8571814171571449971}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709003012524572518}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f54c280410e3824dae464ccf0eba6b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2349419223222047920
 GameObject:
   m_ObjectHideFlags: 0
@@ -1941,300 +2947,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1001 &2495335888131175271
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2495335886691400746, guid: b5351fde03507c34d99a6e44467b80c6,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.752
-      objectReference: {fileID: 0}
-    - target: {fileID: 2495335886691400746, guid: b5351fde03507c34d99a6e44467b80c6,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.244
-      objectReference: {fileID: 0}
-    - target: {fileID: 2495335886691400746, guid: b5351fde03507c34d99a6e44467b80c6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.096
-      objectReference: {fileID: 0}
-    - target: {fileID: 2495335886691400746, guid: b5351fde03507c34d99a6e44467b80c6,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.000000021855694
-      objectReference: {fileID: 0}
-    - target: {fileID: 2495335886691400746, guid: b5351fde03507c34d99a6e44467b80c6,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2495335886691400746, guid: b5351fde03507c34d99a6e44467b80c6,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2495335886691400746, guid: b5351fde03507c34d99a6e44467b80c6,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2495335886691400746, guid: b5351fde03507c34d99a6e44467b80c6,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 2495335886691400746, guid: b5351fde03507c34d99a6e44467b80c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2495335886691400746, guid: b5351fde03507c34d99a6e44467b80c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2495335886691400746, guid: b5351fde03507c34d99a6e44467b80c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2495335886691400751, guid: b5351fde03507c34d99a6e44467b80c6,
-        type: 3}
-      propertyPath: m_Name
-      value: SwitchG
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b5351fde03507c34d99a6e44467b80c6, type: 3}
---- !u!1001 &3121586366686255214
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3121586365689608128, guid: e7fe68b65a7b52440b6d52f8620250bb,
-        type: 3}
-      propertyPath: m_Name
-      value: Door
-      objectReference: {fileID: 0}
-    - target: {fileID: 3121586365689900000, guid: e7fe68b65a7b52440b6d52f8620250bb,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3121586365689900000, guid: e7fe68b65a7b52440b6d52f8620250bb,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.021
-      objectReference: {fileID: 0}
-    - target: {fileID: 3121586365689900000, guid: e7fe68b65a7b52440b6d52f8620250bb,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.213
-      objectReference: {fileID: 0}
-    - target: {fileID: 3121586365689900000, guid: e7fe68b65a7b52440b6d52f8620250bb,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 3121586365689900000, guid: e7fe68b65a7b52440b6d52f8620250bb,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3121586365689900000, guid: e7fe68b65a7b52440b6d52f8620250bb,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3121586365689900000, guid: e7fe68b65a7b52440b6d52f8620250bb,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 3121586365689900000, guid: e7fe68b65a7b52440b6d52f8620250bb,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 3121586365689900000, guid: e7fe68b65a7b52440b6d52f8620250bb,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 3121586365689900000, guid: e7fe68b65a7b52440b6d52f8620250bb,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3121586365689900000, guid: e7fe68b65a7b52440b6d52f8620250bb,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e7fe68b65a7b52440b6d52f8620250bb, type: 3}
---- !u!1001 &4280546262059588291
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4280546261576685570, guid: 0312e943f3d55214a9ef52a3127e99d7,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.24
-      objectReference: {fileID: 0}
-    - target: {fileID: 4280546261576685570, guid: 0312e943f3d55214a9ef52a3127e99d7,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.244
-      objectReference: {fileID: 0}
-    - target: {fileID: 4280546261576685570, guid: 0312e943f3d55214a9ef52a3127e99d7,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.096
-      objectReference: {fileID: 0}
-    - target: {fileID: 4280546261576685570, guid: 0312e943f3d55214a9ef52a3127e99d7,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.000000021855694
-      objectReference: {fileID: 0}
-    - target: {fileID: 4280546261576685570, guid: 0312e943f3d55214a9ef52a3127e99d7,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4280546261576685570, guid: 0312e943f3d55214a9ef52a3127e99d7,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4280546261576685570, guid: 0312e943f3d55214a9ef52a3127e99d7,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4280546261576685570, guid: 0312e943f3d55214a9ef52a3127e99d7,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4280546261576685570, guid: 0312e943f3d55214a9ef52a3127e99d7,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4280546261576685570, guid: 0312e943f3d55214a9ef52a3127e99d7,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4280546261576685570, guid: 0312e943f3d55214a9ef52a3127e99d7,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4280546261576685695, guid: 0312e943f3d55214a9ef52a3127e99d7,
-        type: 3}
-      propertyPath: m_Name
-      value: SwitchB
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0312e943f3d55214a9ef52a3127e99d7, type: 3}
---- !u!1 &4626119972115793831 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1798567953957663687, guid: e3dab3850ba991c40924a19a6cc387c3,
-    type: 3}
-  m_PrefabInstance: {fileID: 6396953826519250016}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &4626119972115793833 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1798567953957663689, guid: e3dab3850ba991c40924a19a6cc387c3,
-    type: 3}
-  m_PrefabInstance: {fileID: 6396953826519250016}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4626119972115793831}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5e81faea33b17748965bd6b554c4dad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1001 &6396953826519250016
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1798567953957663687, guid: e3dab3850ba991c40924a19a6cc387c3,
-        type: 3}
-      propertyPath: m_Name
-      value: SwitchR
-      objectReference: {fileID: 0}
-    - target: {fileID: 2458780595392685205, guid: e3dab3850ba991c40924a19a6cc387c3,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.288
-      objectReference: {fileID: 0}
-    - target: {fileID: 2458780595392685205, guid: e3dab3850ba991c40924a19a6cc387c3,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.244
-      objectReference: {fileID: 0}
-    - target: {fileID: 2458780595392685205, guid: e3dab3850ba991c40924a19a6cc387c3,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.096
-      objectReference: {fileID: 0}
-    - target: {fileID: 2458780595392685205, guid: e3dab3850ba991c40924a19a6cc387c3,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.000000021855694
-      objectReference: {fileID: 0}
-    - target: {fileID: 2458780595392685205, guid: e3dab3850ba991c40924a19a6cc387c3,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2458780595392685205, guid: e3dab3850ba991c40924a19a6cc387c3,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2458780595392685205, guid: e3dab3850ba991c40924a19a6cc387c3,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2458780595392685205, guid: e3dab3850ba991c40924a19a6cc387c3,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 2458780595392685205, guid: e3dab3850ba991c40924a19a6cc387c3,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2458780595392685205, guid: e3dab3850ba991c40924a19a6cc387c3,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2458780595392685205, guid: e3dab3850ba991c40924a19a6cc387c3,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e3dab3850ba991c40924a19a6cc387c3, type: 3}
 --- !u!108 &6409698203981313157
 Light:
   m_ObjectHideFlags: 0
@@ -2296,162 +3008,6 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!1 &6843748959228620050 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4043307821371983618, guid: a4af0506df2417f4a9f2b85ad357428f,
-    type: 3}
-  m_PrefabInstance: {fileID: 7414427338909870608}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &6843748959228620053 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4043307821371983621, guid: a4af0506df2417f4a9f2b85ad357428f,
-    type: 3}
-  m_PrefabInstance: {fileID: 7414427338909870608}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6843748959228620050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eccc055b660bcbb4bbd31eff0cfeb4cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1001 &7414427338909870608
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1029053627298837777, guid: a4af0506df2417f4a9f2b85ad357428f,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.121
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029053627298837777, guid: a4af0506df2417f4a9f2b85ad357428f,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.227
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029053627298837777, guid: a4af0506df2417f4a9f2b85ad357428f,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.09
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029053627298837777, guid: a4af0506df2417f4a9f2b85ad357428f,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029053627298837777, guid: a4af0506df2417f4a9f2b85ad357428f,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029053627298837777, guid: a4af0506df2417f4a9f2b85ad357428f,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029053627298837777, guid: a4af0506df2417f4a9f2b85ad357428f,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029053627298837777, guid: a4af0506df2417f4a9f2b85ad357428f,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029053627298837777, guid: a4af0506df2417f4a9f2b85ad357428f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029053627298837777, guid: a4af0506df2417f4a9f2b85ad357428f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029053627298837777, guid: a4af0506df2417f4a9f2b85ad357428f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4043307821371983618, guid: a4af0506df2417f4a9f2b85ad357428f,
-        type: 3}
-      propertyPath: m_Name
-      value: Switch
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a4af0506df2417f4a9f2b85ad357428f, type: 3}
---- !u!1001 &8571814171571449971
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6276315172430904582, guid: fe497c7f3a36dba478e151c1b6cee435,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.946
-      objectReference: {fileID: 0}
-    - target: {fileID: 6276315172430904582, guid: fe497c7f3a36dba478e151c1b6cee435,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.11204
-      objectReference: {fileID: 0}
-    - target: {fileID: 6276315172430904582, guid: fe497c7f3a36dba478e151c1b6cee435,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 4.529
-      objectReference: {fileID: 0}
-    - target: {fileID: 6276315172430904582, guid: fe497c7f3a36dba478e151c1b6cee435,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6276315172430904582, guid: fe497c7f3a36dba478e151c1b6cee435,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6276315172430904582, guid: fe497c7f3a36dba478e151c1b6cee435,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6276315172430904582, guid: fe497c7f3a36dba478e151c1b6cee435,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6276315172430904582, guid: fe497c7f3a36dba478e151c1b6cee435,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 6276315172430904582, guid: fe497c7f3a36dba478e151c1b6cee435,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6276315172430904582, guid: fe497c7f3a36dba478e151c1b6cee435,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6276315172430904582, guid: fe497c7f3a36dba478e151c1b6cee435,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7008351701832142613, guid: fe497c7f3a36dba478e151c1b6cee435,
-        type: 3}
-      propertyPath: m_Name
-      value: Window
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fe497c7f3a36dba478e151c1b6cee435, type: 3}
 --- !u!4 &8823733946773889347
 Transform:
   m_ObjectHideFlags: 0
@@ -2464,5 +3020,5 @@ Transform:
   m_LocalScale: {x: 163.62758, y: 163.62762, z: 163.62762}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 151.7, y: 90.00001, z: 90.00001}

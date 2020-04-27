@@ -318,6 +318,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eccc055b660bcbb4bbd31eff0cfeb4cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  type: 7
+  transform: {fileID: 1029053627298837777}
   anim: {fileID: 4043307821371983620}
   bv: {fileID: 11400000, guid: f6e032139bd14ca4b9a48a0d1cfee05a, type: 2}
 --- !u!1 &7477702519984502326

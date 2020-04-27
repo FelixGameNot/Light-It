@@ -13,9 +13,21 @@ namespace Info
     [Serializable]
     public class WindowInfo : BaseInfo
     {
-        public float eschoChtoTo;
+        public bool isOpen;
     }
 
+    [Serializable]
+    public class SwitchInfo : BaseInfo
+    {
+        public bool isOn;
+    }
+
+    [Serializable]
+    public class DimmerInfo : BaseInfo
+    {
+        public float dimmerValue;
+    }
+    
     [Serializable]
     public class TransformInfo
     {

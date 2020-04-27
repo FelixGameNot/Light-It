@@ -7,12 +7,11 @@ namespace Objects
     public abstract class BaseObject : MonoBehaviour
     {
 
-        public readonly Type type;
-        
+        public Type type;
+        [SerializeField] protected new Transform transform;
         public Action onRemove;
     
-        public abstract void Initialize(string data);
-        public abstract string GetSerializedInfo();
+        public abstract void Initialize(BaseInfo data);
 
         public virtual void OnViewed() { }
         public virtual void OnClicked(RaycastHit hit) { }
@@ -28,10 +27,7 @@ namespace Objects
             onRemove?.Invoke();
         }
 
-        public virtual BaseInfo GetInfo()
-        {
-            return new BaseInfo();
-        }
-
+        public abstract BaseInfo GetInfo();
+        
     }
 }

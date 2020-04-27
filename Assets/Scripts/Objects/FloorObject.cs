@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Info;
+using UnityEngine;
 
 namespace Objects
 {
@@ -8,21 +9,37 @@ namespace Objects
         [SerializeField] private Transform tr;
         
         private Vector3 _newPosition;
-
+        
+        public override void Initialize(BaseInfo data)
+        {
+            transform.position = data.transformInfo.position;
+            transform.eulerAngles = data.transformInfo.rotation;
+            transform.localScale = data.transformInfo.scale;
+            tr = Camera.main.transform;
+        }
+        
         public override void OnClicked(RaycastHit hit)
         {
             _newPosition = new Vector3(hit.point.x, tr.position.y, hit.point.z);
             tr.position = _newPosition;
         }
-
-        public override void Initialize(string data)
+        
+        public override void Remove()
         {
-            throw new System.NotImplementedException();
+            
         }
-
-        public override string GetSerializedInfo()
+        
+        public override BaseInfo GetInfo()
         {
-            throw new System.NotImplementedException();
+            return new BaseInfo()
+            {
+                transformInfo = new TransformInfo()
+                {
+                    position = transform.position,
+                    rotation = transform.eulerAngles,
+                    scale = transform.localScale
+                }
+            };
         }
     }
 }
