@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Info;
 using UnityEngine;
 
 namespace GameLogic
@@ -33,6 +34,14 @@ namespace GameLogic
 
         void Update()
         {
+            if (Input.GetKey(KeyCode.LeftControl))
+            {
+                Cursor.lockState = CursorLockMode.None;
+               return;
+            }
+
+            Cursor.lockState = CursorLockMode.Locked;
+
             if (axes == RotationAxes.MouseXAndY)
             {
                 rotAverageY = 0f;
@@ -121,13 +130,12 @@ namespace GameLogic
             }
         }
 
-        void Start()
+        public void Init()
         {
             Cursor.lockState = CursorLockMode.Locked;
-            Rigidbody rb = GetComponent<Rigidbody>();
-            if (rb)
-                rb.freezeRotation = true;
             originalRotation = transform.localRotation;
+            originalRotation.z = 0;
+            originalRotation.x = 0;
         }
 
         public static float ClampAngle(float angle, float min, float max)
@@ -145,6 +153,26 @@ namespace GameLogic
                 }
             }
             return Mathf.Clamp(angle, min, max);
+        }
+        
+        public TransformInfo GetTransformInfo()
+        {
+            var transform1 = transform;
+            return new TransformInfo()
+            {
+                position = transform1.position,
+                rotation = transform1.eulerAngles,
+                scale = transform1.localScale
+            };
+        }
+
+        public void SetTransformInfo(TransformInfo info)
+        {
+            var transform1 = transform;
+            transform1.position = info.position;
+            transform1.eulerAngles = info.rotation;
+            transform1.localScale = info.scale;
+            Init();
         }
     }
 }

@@ -45,12 +45,7 @@ namespace Objects
             yield return new WaitForSeconds(4f);
             AudioManager.Instance.Play("Door");
         }
-
-        public override void Remove()
-        {
-            
-        }
-
+        
         public override BaseInfo GetInfo()
         {
             return new BaseInfo()

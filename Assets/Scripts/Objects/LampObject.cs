@@ -17,10 +17,7 @@ namespace Objects
             transform.position = data.transformInfo.position;
             transform.eulerAngles = data.transformInfo.rotation;
             transform.localScale = data.transformInfo.scale;
-        }        
-        
-        private void OnEnable()
-        {
+            
             foreach(var ch in channels)
             {
                 ch.OnChanged += RebuildTheColor;
@@ -29,8 +26,8 @@ namespace Objects
         
             isOn.OnChanged += Fade;
             lamp.intensity = isOn.Value ? 1 : 0;
-        }
-
+        }        
+        
         private void OnDisable()
         {
             foreach(var ch in channels)
@@ -68,7 +65,7 @@ namespace Objects
 
         public override void Remove()
         {
-            base.Remove();
+            onRemove?.Invoke();
             Destroy(gameObject);
         }
         

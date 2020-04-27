@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Bayat.Json;
 using Bayat.SaveSystem;
+using GameLogic;
 using Info;
 using Objects;
 using Sirenix.OdinInspector;
@@ -26,21 +28,17 @@ public class GameManager : SerializedMonoBehaviour
     {
         TypeNameHandling = TypeNameHandling.All
     };
-    
+
+    public SmoothMouseLook player;
     
     private void Start()
     {
         LoadGame();
     }
 
-    private void OnApplicationQuit()
-    {
-        SaveGame();
-    }
-
     public void SaveGame()
     {
-        Dictionary<Type, List<BaseInfo>> cache = new Dictionary<Type, List<BaseInfo>>();
+        var cache = new Dictionary<Type, List<BaseInfo>>();
 
         foreach (var obj in sceneObjects)
         {
@@ -50,8 +48,16 @@ public class GameManager : SerializedMonoBehaviour
             }
             cache[obj.Value.type].Add(obj.Value.GetInfo());
         }
-
+        PlayerPrefs.SetString("PlayerSave", JsonConvert.SerializeObject(player.GetTransformInfo()));
         PlayerPrefs.SetString("Save", JsonConvert.SerializeObject(cache, _settings));
+    }
+
+    public void DestroyAll()
+    {
+        foreach (var obj in sceneObjects.Values.ToList())
+        {
+            obj.ForceRemove();
+        }
     }
     
     public  void LoadGame()
@@ -68,11 +74,19 @@ public class GameManager : SerializedMonoBehaviour
     
     public void LoadDefaults()
     {
+        DestroyAll();
+        player.SetTransformInfo(new TransformInfo()
+        {
+            position = new Vector3(0,1.415f,2.952f),
+            scale = Vector3.one
+        });
         CreateObjects(baseObjects);
     }
     
     public void LoadSaves()
     {
+        DestroyAll();
+        player.SetTransformInfo(JsonConvert.DeserializeObject<TransformInfo>(PlayerPrefs.GetString("PlayerSave")));
         CreateObjects(JsonConvert.DeserializeObject<Dictionary<Type, List<BaseInfo>>>(
                 PlayerPrefs.GetString("Save"), _settings));
     }
@@ -86,45 +100,6 @@ public class GameManager : SerializedMonoBehaviour
             {
                 CreateObject(objectsStorage[type].defaultObject, baseInf);
             }
-            
-            //switch (type)
-            //{
-            //    case Type.WINDOW:
-            //        foreach (var baseInf in baseObj.Value)
-            //        {
-            //            CreateObject(objectsStorage[type].defaultObject, baseInf as WindowInfo);
-            //        }
-            //        break;
-            //    case Type.SWITCH:
-            //        foreach (var baseInf in baseObj.Value)
-            //        {
-            //            CreateObject(objectsStorage[type].defaultObject, baseInf as SwitchInfo);
-            //        }
-            //
-            //        break;
-            //    case Type.DIMMERB:
-            //        foreach (var baseInf in baseObj.Value)
-            //        {
-            //            CreateObject(objectsStorage[type].defaultObject, baseInf as DimmerInfo);
-            //        }
-            //        break;
-            //    case Type.DIMMERR:
-            //        foreach (var baseInf in baseObj.Value)
-            //        {
-            //            CreateObject(objectsStorage[type].defaultObject, baseInf as DimmerInfo);
-            //        }
-            //        break;
-            //    case Type.DIMMERG:
-            //        foreach (var baseInf in baseObj.Value)
-            //        {
-            //            CreateObject(objectsStorage[type].defaultObject, baseInf as DimmerInfo);
-            //        }
-            //        break;
-            //    default:
-            //
-            //        break;
-            //}
-
         }
     }
 

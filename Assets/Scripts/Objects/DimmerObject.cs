@@ -17,7 +17,6 @@ namespace Objects
         {
             if (data is DimmerInfo cache)
             {
-                Debug.Log("dimmerOk");
                 transform.position = cache.transformInfo.position;
                 transform.eulerAngles = cache.transformInfo.rotation;
                 transform.localScale = cache.transformInfo.scale;
@@ -28,6 +27,7 @@ namespace Objects
         
         public override void OnViewed()
         {
+            base.OnViewed();
             if(Input.mouseScrollDelta.y > 0 || Input.GetMouseButton(1))
             {
                 channel.Value += speed * Time.deltaTime;
@@ -37,11 +37,6 @@ namespace Objects
                 channel.Value -= speed * Time.deltaTime;
             }
             circle.rotation = Quaternion.Euler(270f-channel.Value*180, -90f, -90f);
-        }
-        
-        public override void Remove()
-        {
-            
         }
         
         public override BaseInfo GetInfo()

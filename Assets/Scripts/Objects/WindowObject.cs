@@ -14,7 +14,6 @@ namespace Objects
         {
             if (data is WindowInfo cache)
             {
-                Debug.Log("WindowOk");
                 transform.position = cache.transformInfo.position;
                 transform.eulerAngles = cache.transformInfo.rotation;
                 transform.localScale = cache.transformInfo.scale;
@@ -29,11 +28,6 @@ namespace Objects
             _isOpen = !_isOpen;
         }
 
-        public override void Remove()
-        {
-            
-        }
-        
         public override BaseInfo GetInfo()
         {
             var info = new WindowInfo()

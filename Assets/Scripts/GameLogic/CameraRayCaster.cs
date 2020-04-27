@@ -1,4 +1,5 @@
-﻿ using UnityEngine;
+﻿ using Info;
+ using UnityEngine;
 
  namespace GameLogic
  {
@@ -47,7 +48,7 @@
                          manager.SpawnObject(hit, Type.LAMP);
                      if (Input.GetKeyDown(KeyCode.B))
                          manager.SpawnObject(hit, Type.BOX);
-                     if (Input.GetKeyDown(KeyCode.S))
+                     if (Input.GetKeyDown(KeyCode.T))
                          manager.SpawnObject(hit, Type.TANK);
                  }
 

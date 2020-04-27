@@ -24,12 +24,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Bayat/Json/Runtime/JsonSerializer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/2 - Saving &amp; Loadinig Complex Data/ComplexDataDemoController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TestSave.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/Type.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/DoorObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/DimmerObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/FloorObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/SwitchObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Type.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/SmoothMouseLook.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/CameraRayCaster.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/StaticObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/3 - Saving &amp; Loadinig Scene Objects/SceneObjectsDemoController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -38,6 +38,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/5 - Saving &amp; Loading Existing Object/ExistingObjectDemoController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Bayat/Json/Runtime/JsonConvert.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Bayat/Json/Runtime/Converters/CustomCreationConverter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UiManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -59,19 +61,22 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Lamp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LampObject.cs" />
         <option value="$PROJECT_DIR$/Assets/BaseObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/CameraRayCaster.cs" />
         <option value="$PROJECT_DIR$/Assets/MyClass.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Info/BaseInfo.cs" />
         <option value="$PROJECT_DIR$/Assets/Type.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/LampObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/DoorObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/FloorObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UiManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Info/BaseInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/SmoothMouseLook.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameLogic/CameraRayCaster.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Objects/BaseObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Objects/DimmerObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/DoorObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/FloorObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Objects/StaticObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/WindowObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Objects/SwitchObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/WindowObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/LampObject.cs" />
       </list>
     </option>
   </component>

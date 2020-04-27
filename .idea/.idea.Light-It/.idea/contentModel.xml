@@ -61,7 +61,6 @@
             </e>
           </e>
         </e>
-        <e p="GameManager.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Bayat" t="Include">
             <e p="Core" t="Include">
@@ -441,6 +440,7 @@
             <e p="CameraRayCaster.cs" t="Include" />
             <e p="SmoothMouseLook.cs" t="Include" />
           </e>
+          <e p="GameManager.cs" t="Include" />
           <e p="Info" t="Include">
             <e p="BaseInfo.cs" t="Include" />
           </e>
@@ -452,6 +452,7 @@
             <e p="LampObject.cs" t="Include" />
             <e p="StaticObject.cs" t="Include" />
             <e p="SwitchObject.cs" t="Include" />
+            <e p="Type.cs" t="Include" />
             <e p="WindowObject.cs" t="Include" />
           </e>
           <e p="ScriptableObjects" t="Include">
@@ -459,8 +460,44 @@
             <e p="ColorChannels.cs" t="Include" />
           </e>
           <e p="TestSave.cs" t="Include" />
+          <e p="Text" t="Include">
+            <e p="ITextLocalizer.cs" t="Include" />
+            <e p="ITextSetter.cs" t="Include" />
+            <e p="LocalizationManager.cs" t="Include" />
+            <e p="LocalizeDynamicText.cs" t="Include" />
+            <e p="LocalizeStaticText.cs" t="Include" />
+            <e p="SetDynamicText.cs" t="Include" />
+          </e>
+          <e p="UiManager.cs" t="Include" />
         </e>
-        <e p="Type.cs" t="Include" />
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
       </e>
       <e p="Bayat.Core.Editor.csproj" t="IncludeRecursive" />
       <e p="Bayat.Core.Runtime.csproj" t="IncludeRecursive" />

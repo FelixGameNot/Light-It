@@ -15,7 +15,7 @@ namespace Objects
 
         public override void Remove()
         {
-            base.Remove();
+            onRemove?.Invoke();
             Destroy(gameObject);
         }
 

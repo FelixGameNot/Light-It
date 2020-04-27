@@ -22,13 +22,9 @@ namespace Objects
         {
             _newPosition = new Vector3(hit.point.x, tr.position.y, hit.point.z);
             tr.position = _newPosition;
+            UiManager.Instance.playerPosText.SetText(_newPosition.x,_newPosition.y,_newPosition.z);
         }
-        
-        public override void Remove()
-        {
-            
-        }
-        
+
         public override BaseInfo GetInfo()
         {
             return new BaseInfo()

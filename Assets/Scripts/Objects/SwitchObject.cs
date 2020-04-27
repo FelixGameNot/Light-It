@@ -21,7 +21,6 @@ namespace Objects
         {
             if (data is SwitchInfo cache)
             {
-                Debug.Log("SwitchOk");
                 transform.position = cache.transformInfo.position;
                 transform.eulerAngles = cache.transformInfo.rotation;
                 transform.localScale = cache.transformInfo.scale;
@@ -29,12 +28,7 @@ namespace Objects
                 anim.Play(cache.isOn ? "Switch_On" : "Switch_Off");
             }
         }
-        
-        public override void Remove()
-        {
-            
-        }
-        
+
         public override BaseInfo GetInfo()
         {
             return new SwitchInfo()

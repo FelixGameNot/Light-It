@@ -13,7 +13,10 @@ namespace Objects
     
         public abstract void Initialize(BaseInfo data);
 
-        public virtual void OnViewed() { }
+        public virtual void OnViewed()
+        {
+            UiManager.Instance.viewedObjectText.SetText(gameObject.name);
+        }
         public virtual void OnClicked(RaycastHit hit) { }
 
         public virtual void OnStartHandling(RaycastHit hit) { }
@@ -22,9 +25,12 @@ namespace Objects
 
         public virtual void OnEndHandling(RaycastHit hit) { }
 
-        public virtual void Remove()
+        public virtual void Remove() { }
+
+        public virtual void ForceRemove()
         {
             onRemove?.Invoke();
+            Destroy(gameObject);
         }
 
         public abstract BaseInfo GetInfo();
