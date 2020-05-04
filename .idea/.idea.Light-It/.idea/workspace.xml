@@ -35,7 +35,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/3 - Saving &amp; Loadinig Scene Objects/SceneObjectsDemoController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/ColorChannels.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/BaseObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Scripts/VectorIntFormatters.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Bayat/SaveSystem/Demos/5 - Saving &amp; Loading Existing Object/ExistingObjectDemoController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/AssemblyImportSettingsAutomation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Bayat/Json/Runtime/JsonConvert.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Bayat/Json/Runtime/Converters/CustomCreationConverter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UiManager.cs" root0="FORCE_HIGHLIGHTING" />
